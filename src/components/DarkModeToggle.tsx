@@ -6,8 +6,6 @@ function DarkModeToggle() {
   const { theme, toggleTheme } = useContext(ThemeContext);
   const isDarkMode = theme === "dark";
 
-  console.log(theme, "theme");
-
   return (
     <div>
       <IconButton color="inherit" onClick={toggleTheme}>
